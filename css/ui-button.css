@@ -1,0 +1,25 @@
+.button__wrapper {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.game__button-start {
+    height: 4.75rem;
+    margin: 0 1rem;
+    padding: 0 4.344rem;
+    font-size: 1.5rem;
+    border: 2px #000000 solid;
+    background-color: #ffffff;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.game__button-start:hover {
+    background-color: #000000;
+    color: #ffffff;
+}
