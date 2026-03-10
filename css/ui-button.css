@@ -1,11 +1,4 @@
-.button__wrapper {
-    display: flex;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-}
-
-.game__button-start {
+.btn {
     height: 4.75rem;
     margin: 0 1rem;
     padding: 0 4.344rem;
@@ -19,7 +12,7 @@
     cursor: pointer;
 }
 
-.game__button-start:hover {
+.btn:hover {
     background-color: #000000;
     color: #ffffff;
 }

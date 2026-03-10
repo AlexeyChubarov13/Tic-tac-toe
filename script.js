@@ -23,7 +23,7 @@ function init() {
 
     for (let i = 0; i < cells.length; i++) {
         cells[i].innerHTML = ""
-        cells[i].classList.remove('game__board-cell--win')
+        cells[i].classList.remove('--win')
     }
 }
 
@@ -39,7 +39,7 @@ function clickCell() {
     const winCombo = checkWin()
     if (winCombo) {
         for (const winIdx of winCombo) {
-            cells[winIdx].classList.add('game__board-cell--win')
+            cells[winIdx].classList.add('--win')
         }
         alert('Игрок ' + currentPlayer + ' победил!')
         gameOver = true
